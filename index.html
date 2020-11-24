@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    
+	
+	<div class="form-data">
+  
+  <h1 class="h3 mb-3 font-weight-normal">Please fill required data</h1>
+  <label for="color" class="sr-only">Enter color of socks</label>
+  <input type="text" id="color" name="color" class="form-control" placeholder="Enter color of socks" required autofocus value="">
+  <br>
+  <div class="btn-groupd" role="group">
+  <button class="btn btn-primary" id="validat" type="submit" onclick="validateForm()"  value="addcolor">Add Color</button>
+  <button class="btn btn-secondary" id="reset" type="reset" onclick="reset()">Reset</button>
+</div>
+
+
+<h4>Entered Colors: <div id="demo"></div></h4>
+            
+  
+  <button id="pair" class="btn btn-success" onclick="calculate(input)"  value="pair" > Get Total Pair</button>
+        
+		<h4>Total Pairs: <div id="pairlist"></div></h4>
+		
+  <p class="mt-5 mb-3 text-muted">&copy; Ashutosh Acharya</p>
+</div>
+    
+	
+	<script src="script.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
