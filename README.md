@@ -1,6 +1,5 @@
 # colorpair
  
-# colorpair
 javascript code to find out colorpair
 
 PROBLEM :_
@@ -33,4 +32,4 @@ Sample Input:-
 
 Sample Output :-
 
-7
+``7``
