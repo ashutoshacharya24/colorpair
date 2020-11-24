@@ -33,3 +33,5 @@ Sample Input:-
 Sample Output :-
 
 ``7``
+
+To check the output go through https://ashutoshacharya24.github.io/colorpair/
